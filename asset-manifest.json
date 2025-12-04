@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e03cf415.css",
-    "main.js": "/static/js/main.0ff747fc.js",
+    "main.js": "/static/js/main.981668d4.js",
     "static/js/453.322cc929.chunk.js": "/static/js/453.322cc929.chunk.js",
     "static/media/tokaidovideogame.gif": "/static/media/tokaidovideogame.60fe7de4d18504aeda30.gif",
     "static/media/mock10.png": "/static/media/mock10.2d05b02ba569a430a255.png",
@@ -12,11 +12,11 @@
     "static/media/bg-dark.png": "/static/media/bg-dark.f420c6b8458af72de935.png",
     "index.html": "/index.html",
     "main.e03cf415.css.map": "/static/css/main.e03cf415.css.map",
-    "main.0ff747fc.js.map": "/static/js/main.0ff747fc.js.map",
+    "main.981668d4.js.map": "/static/js/main.981668d4.js.map",
     "453.322cc929.chunk.js.map": "/static/js/453.322cc929.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e03cf415.css",
-    "static/js/main.0ff747fc.js"
+    "static/js/main.981668d4.js"
   ]
 }
