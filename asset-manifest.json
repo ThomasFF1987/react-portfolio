@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.f62c4a5b.css",
-    "main.js": "/static/js/main.8b49a892.js",
+    "main.css": "/static/css/main.c9abf770.css",
+    "main.js": "/static/js/main.1a954305.js",
     "static/js/453.322cc929.chunk.js": "/static/js/453.322cc929.chunk.js",
     "static/media/tokaidovideogame.gif": "/static/media/tokaidovideogame.60fe7de4d18504aeda30.gif",
-    "static/media/mock08.png": "/static/media/mock08.13f46873fdbd382f4b76.png",
+    "static/media/donutsvideogame.gif": "/static/media/donutsvideogame.5e464224ddc4531fc160.gif",
+    "static/media/monumentalapp.gif": "/static/media/monumentalapp.877a33acfdab91ff2031.gif",
     "static/media/tokaido_title.png": "/static/media/tokaido_title.7bdf7ea50d8e6ba5e88c.png",
     "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/mock07.png": "/static/media/mock07.3f1110f482232b33c6a2.png",
-    "static/media/mock06.png": "/static/media/mock06.ea816617e0d0fa0f63ca.png",
+    "static/media/donuts_title.png": "/static/media/donuts_title.a4c2e2c1357c63509425.png",
+    "static/media/monumental_title.png": "/static/media/monumental_title.79aa05d447a3b9f3e3c4.png",
     "static/media/bg-dark.png": "/static/media/bg-dark.f420c6b8458af72de935.png",
-    "static/media/mock01.png": "/static/media/mock01.61bd486a54bf6e17ee5a.png",
     "static/media/portrait.jpg": "/static/media/portrait.436490cfc75c896c321a.jpg",
     "index.html": "/index.html",
-    "main.f62c4a5b.css.map": "/static/css/main.f62c4a5b.css.map",
-    "main.8b49a892.js.map": "/static/js/main.8b49a892.js.map",
+    "main.c9abf770.css.map": "/static/css/main.c9abf770.css.map",
+    "main.1a954305.js.map": "/static/js/main.1a954305.js.map",
     "453.322cc929.chunk.js.map": "/static/js/453.322cc929.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f62c4a5b.css",
-    "static/js/main.8b49a892.js"
+    "static/css/main.c9abf770.css",
+    "static/js/main.1a954305.js"
   ]
 }
