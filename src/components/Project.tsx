@@ -1,70 +1,73 @@
 import React from "react";
-import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
-import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
-import mock09 from '../assets/images/mock09.png';
-import mock10 from '../assets/images/mock10.png';
+import mock001 from '../assets/images/tokaido_title.png';
+import mock001_hover from '../assets/images/tokaidovideogame.gif';
+import mock002 from '../assets/images/donuts_title.png';
+import mock002_hover from '../assets/images/donutsvideogame.gif';
+import mock003 from '../assets/images/monumental_title.png';
+import mock003_hover from '../assets/images/monumentalapp.gif';
+import mock004 from '../assets/images/runemasters_title.png';
+import mock004_hover from '../assets/images/runemasters.png';*/
 import '../assets/styles/Project.scss';
 
 function Project() {
     return(
     <div className="projects-container" id="projects">
-        <h1>Personal Projects</h1>
+        <h2>Projects</h2>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <div className="img-hover">
+                        <img src={mock002} className="zoom" alt="thumbnail" width="100%"/>
+                        <div className="hover-container">
+                            <img src={mock002_hover} className="img-hovered-portrait" alt="thumbnail hover" />
+                        </div>
+                </div>
+                <h3>Donuts</h3>
+                <p><a href ='https://boardgamegeek.com/boardgame/341358/donuts' target="_blank" rel="noreferrer">Donuts</a> is an abstract strategy game for two players in which you attempt align five rings of your color to win.</p>
+                <p>Starting with a classic adaptation of the board game, it became a game with new ways and features to play an expanded experience.</p>
+                <p>Game design created by <a href="https://fr.wikipedia.org/wiki/Bruno_Cathala_(auteur_de_jeux)">Bruno Cathala</a>.</p>
+                <p>Art visuals and game assets created by <a href="https://boardgamegeek.com/boardgamedesigner/11265/philippe-nouhra">Philippe Nouhra</a>.</p>
+                <p>It was planned to be a F2P game available on Android and iOS.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <div className="img-hover">
+                        <img src={mock001} className="zoom" alt="thumbnail" width="100%"/>
+                        <div className="hover-container">
+                            <img src={mock001_hover} className="img-hovered" alt="thumbnail hover" />
+                        </div>
+                </div>
+                <h3>Tokaido</h3>
+                <p>In <a href='https://boardgamegeek.com/boardgame/123540/tokaido' target="_blank" rel="noreferrer">Tokaido</a>, you are a traveler, in the heart of ancient Japan, walking the legendary East Sea road from Kyoto to Edo, trying to make the trek as fulfilling as possible.</p>
+                <p>I've worked on all aspects of the game such as gameplay, UI, camera, solo mod, pass & play mod, online & crossplatform multiplayer, player account creation...</p>
+                <p>Game design created by <a href="https://fr.wikipedia.org/wiki/Antoine_Bauza">Antoine Bauza</a>.</p>
+                <p>Art visuals created by <a href="https://www.artstation.com/xaviergueniffeydurin">Naïade</a>.</p>
+                <p>UI assets made by <a href="https://boardgamegeek.com/boardgamedesigner/11265/philippe-nouhra">Philippe Nouhra</a>.</p>
+                <p>Game assets made by <a href="https://www.artstation.com/artwork/X2ody">Charles-V Kaing</a>.</p>
+                <p>Available on <a href="https://apps.apple.com/fr/app/tokaido/id1215230801" target="_blank" rel="noreferrer">AppStore</a>, <a href="https://play.google.com/store/apps/details?id=com.funforgedigital.tokaido&hl=en" target="_blank" rel="noreferrer">Google Play</a> and <a href="https://store.steampowered.com/app/648750/Tokaido/" target="_blank" rel="noreferrer">Steam</a> since February 2017.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
+                <div className="img-hover">
+                        <img src={mock003} className="zoom" alt="thumbnail" width="100%"/>
+                        <div className="hover-container">
+                            <img src={mock003_hover} className="img-hovered" alt="thumbnail hover" />
+                        </div>
+                </div>
+                <h3>Monumental App</h3>
+                <p>In <a href='https://boardgamegeek.com/boardgame/248125/monumental' target="_blank" rel="noreferrer">Monumental</a>, each player will control a civilization that will evolve through their city deck, which they will have to build over the ages.</p>
+                <p>I was in charge of developing a web application where players of the Monumental board game are able to create their own cards and maps.</p>
+                <p>Game design created by <a href="https://www.matthewdunstan.com/">Matthew Dunstan</a>.</p>
             </div>
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
-            </div>
-            <div className="project">
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
-            </div>
-            <div className="project">
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
-                <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Multiple Regression Property Analysis</h2></a>
-                <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
-            </div>
-            <div className="project">
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
-            </div>
-            <div className="project">
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-                <p>Created an interactive CSV table generator with Java, Handlebars, and LESS. This project helps transfer students to quickly identify eligible credits.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
+                <div className="img-hover">
+                        <img src={mock004} className="zoom" alt="thumbnail" width="100%"/>
+                        <div className="hover-container">
+                            <img src={mock004_hover} className="img-hovered" alt="thumbnail hover" />
+                        </div>
+                </div>
+                <h3>Runemasters</h3>
+                <p><a href='https://boardgamegeek.com/boardgame/391766/runemasters' target="_blank" rel="noreferrer">Runemasters</a> is a co-operative tower-defense game in which 1-4 players work together as Runemasters whose sworn duty is to protect the Temple of Mankind against the forces of evil.</p>
+                <p>I've developed a prototype to complete an application for video game production funding. Unfortunately, we were rejected and the project's development stopped.</p>
+                <p>Game design created by <a href="https://bsky.app/profile/transludis.bsky.social">Antoine Prono</a>.</p>
+                <p>Art visuals created by <a href="https://www.artstation.com/djib">Djib</a>.</p>
             </div>
         </div>
     </div>

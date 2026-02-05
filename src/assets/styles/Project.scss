@@ -30,6 +30,73 @@
     transform: scale(1.05);
 }
 
+
+
+/* Wrapper autour des deux images */
+.img-hover {
+    position: relative;
+    display: inline-block;
+    width: 100%; /* important si ton .project a une largeur responsive */
+}
+
+/* Image de base : elle donne la taille du cadre */
+.img-default {
+    width: 100%;
+    display: block;
+    border-radius: 5px; /* si tu veux garder les coins */
+}
+
+/* Zone qui contient l'image hover */
+.hover-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #f7f4ed; /* espace blanc autour de l'image hover */
+
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    pointer-events: none;
+}
+
+/* Image hover : jamais étirée, centrée */
+.img-hovered-portrait {
+    width:auto;
+    height: 100%;
+    //max-width: 100%;
+    //max-height: 100%;
+    border-radius: 5px;
+}
+
+.img-hovered {
+    width:100%;
+    height: auto;
+    //max-width: 100%;
+    //max-height: 100%;
+    border-radius: 5px;
+}
+
+/* Au survol : image hover visible */
+.img-hover:hover .hover-container {
+    border-radius: 5px;
+    opacity: 1;
+    transition: opacity 0.25s ease;
+    transform: scale(1.05);
+}
+
+.img-hover:hover .img-default {
+    opacity: 0;
+}
+
+
+
 @media screen {
     @media (max-width: 700px) {
         .projects-container {

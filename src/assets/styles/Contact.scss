@@ -1,3 +1,28 @@
+#contact {
+  .MuiOutlinedInput-root {
+
+    .MuiOutlinedInput-input {
+      color: #050f0b !important;       // Texte tapé
+    }
+
+    .MuiInputBase-input {
+      color: #050f0b !important;       // Fallback
+    }
+
+    .MuiOutlinedInput-notchedOutline {
+      border-color: #050f0f !important;
+    }
+  }
+
+  .MuiInputLabel-root {
+    color: #050f0f !important;         // Label non focus
+  }
+
+  .MuiInputLabel-root.Mui-focused {
+    color: #5000ca !important;         // Label focus
+  }
+}
+
 .contact_wrapper svg {
   font-size: 1em;
   vertical-align: middle;
@@ -19,8 +44,9 @@
   }
 
   fieldset {
-    background-color: white;
+    background-color: white transparent;
   }
+  
 }
 
 label {
