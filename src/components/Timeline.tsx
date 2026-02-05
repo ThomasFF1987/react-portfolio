@@ -1,4 +1,4 @@
-import React from "react";
+
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
@@ -6,14 +6,10 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
 import { faFontAwesome } from "@fortawesome/free-regular-svg-icons";
-import { faUpwork } from "@fortawesome/free-brands-svg-icons";
 import logo001 from '../assets/images/logo_funforge.png';
 import logo002 from '../assets/images/logo_isart.png';
 import logo003 from '../assets/images/logo_electronlibre.png';
 import logo004 from '../assets/images/logo_sillycat.png';
-import logo005 from '../assets/images/logo_alcatel.jpg';
-import logo006 from '../assets/images/logo_rockwell.png';
-import logo007 from '../assets/images/logo_corvo.jpg';
 
 function Timeline() {
   return (

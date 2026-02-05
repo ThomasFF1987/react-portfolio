@@ -1,10 +1,9 @@
-import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUnity, faGooglePlay, faAppStoreIos, faGithub, faSteam, faAws, faHtml5, faWebflow, faWebAwesome, faDev, faAdn, faAndroid, faIoxhost, faApple, faWindows, faStackExchange } from '@fortawesome/free-brands-svg-icons';
+import { faUnity } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
-import { faCode, faCodeBranch, faCodeFork, faCodePullRequest, faDatabase, faMobile, faStore } from "@fortawesome/free-solid-svg-icons";
+import { faCode, faStore } from "@fortawesome/free-solid-svg-icons";
 
 const labelsFirst = [
     "Unity",
@@ -22,22 +21,35 @@ const labelsFirst = [
     "Online",
     "Database",
     "Optimization",
+    "Addressables",
+    "MVC",
+    "State Machine",
+    "Command Pattern",
+    "Observer/Event Pattern",
+    "Scriptable Objects",
+    
 ];
 
 const labelsSecond = [
     "C#",
     "Visual Studio",
+    "VS Code",
+    "Cursor",
     "Xcode",
-    "SOLID principles",
     "GitHub",
+    "Copilot",
     "AWS Lambda",
     "MongoDB",
     "HTML",
     "CSS",
     "Javascript",
+    "React.JS",
+    "Three.JS",
+    "TypeScript",
     "PHP",
     "JSON",
     "Photon Fusion",
+    "Spine Animation",
 ];
 
 const labelsThird = [
@@ -73,6 +85,7 @@ function Expertise() {
                     <h3>Tech Stack</h3>
                     <p>For each project, I select the most suitable technologies, learn and apply them effectively.</p>
                     <p>A modern and evolving stack, tailored for game development, enabling me to create reliable, high-performance, and immersive experiences.</p>
+                    <p>AI agents help me generate boilerplate code, provide autocompletion, and review and optimize code to enhance my development workflow.</p>
                     <div className="flex-chips">
                         {labelsSecond.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
@@ -92,7 +105,6 @@ function Expertise() {
                     </div>
                 </div>
                 
-
             </div>
         </div>
     </div>

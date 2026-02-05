@@ -1,4 +1,3 @@
-import React from "react";
 import mock001 from '../assets/images/tokaido_title.png';
 import mock001_hover from '../assets/images/tokaidovideogame.gif';
 import mock002 from '../assets/images/donuts_title.png';
@@ -6,7 +5,7 @@ import mock002_hover from '../assets/images/donutsvideogame.gif';
 import mock003 from '../assets/images/monumental_title.png';
 import mock003_hover from '../assets/images/monumentalapp.gif';
 import mock004 from '../assets/images/runemasters_title.png';
-import mock004_hover from '../assets/images/runemasters.png';*/
+import mock004_hover from '../assets/images/runemasters.png';
 import '../assets/styles/Project.scss';
 
 function Project() {

@@ -1,4 +1,3 @@
-import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../assets/styles/Main.scss';
@@ -17,7 +16,7 @@ function Main() {
             <a href="https://www.linkedin.com/in/thomasbsani" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <h1>Thomas Baggi-Sani</h1>
-          <p>Full Stack Game Developer</p>
+          <p>Senior Game Developer</p>
           <p>15+ years working with Unity</p>
           <p>Specialized in mobile game development</p>
 
