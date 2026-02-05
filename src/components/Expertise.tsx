@@ -58,7 +58,7 @@ function Expertise() {
             <div className="skills-grid">
                 <div className="skill">
                     <FontAwesomeIcon icon={faUnity} size="3x" style={{ marginRight: "20px" }}/>
-                    <h3>Full Stack Game Development</h3>
+                    <h3>Game Development</h3>
                     <p>I have built a diverse game applications from scratch using Unity technologies, and have a strong proficiency in the Game Development Lifecycle process.</p>
                     <p>Working alongside various roles has allowed me to gain hands-on experience with every aspect of the game engine.</p>
                     <div className="flex-chips">
