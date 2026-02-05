@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.fcb1cd14.css",
-    "main.js": "/static/js/main.1e724c46.js",
-    "static/js/453.322cc929.chunk.js": "/static/js/453.322cc929.chunk.js",
+    "main.js": "/static/js/main.5ea2b098.js",
+    "static/js/453.8a16e3aa.chunk.js": "/static/js/453.8a16e3aa.chunk.js",
     "static/media/tokaidovideogame.gif": "/static/media/tokaidovideogame.60fe7de4d18504aeda30.gif",
     "static/media/donutsvideogame.gif": "/static/media/donutsvideogame.5e464224ddc4531fc160.gif",
     "static/media/monumentalapp.gif": "/static/media/monumentalapp.877a33acfdab91ff2031.gif",
@@ -19,11 +19,11 @@
     "static/media/logo_electronlibre.png": "/static/media/logo_electronlibre.a7295c3e65bfb910b88e.png",
     "index.html": "/index.html",
     "main.fcb1cd14.css.map": "/static/css/main.fcb1cd14.css.map",
-    "main.1e724c46.js.map": "/static/js/main.1e724c46.js.map",
-    "453.322cc929.chunk.js.map": "/static/js/453.322cc929.chunk.js.map"
+    "main.5ea2b098.js.map": "/static/js/main.5ea2b098.js.map",
+    "453.8a16e3aa.chunk.js.map": "/static/js/453.8a16e3aa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fcb1cd14.css",
-    "static/js/main.1e724c46.js"
+    "static/js/main.5ea2b098.js"
   ]
 }
